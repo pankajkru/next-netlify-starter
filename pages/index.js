@@ -65,52 +65,56 @@ export default function Home() {
           >
             Chat on WhatsApp
           </a>
+
+                <div>
+                              {/* QR Codes Section */}
+                    <div style={{ marginTop: '40px' }}>
+                      <h3>Connect With Us</h3>
+            
+                      <div style={{
+                        display: 'flex',
+                        gap: '30px',
+                        marginTop: '20px',
+                        flexWrap: 'wrap',
+                        justifyContent: 'center'
+                      }}>
+            
+                        {/* WhatsApp QR */}
+                        <div>
+                          <img
+                            src="/qr-whatsapp.png"
+                            alt="WhatsApp QR"
+                            style={{ width: '120px' }}
+                          />
+                          <p>WhatsApp</p>
+                        </div>
+            
+                        {/* Instagram QR */}
+                        <div>
+                          <img
+                            src="/qr-instagram.png"
+                            alt="Instagram QR"
+                            style={{ width: '120px' }}
+                          />
+                          <p>Instagram</p>
+                        </div>
+            
+                        {/* Facebook QR */}
+                        <div>
+                          <img
+                            src="/qr-facebook.png"
+                            alt="Facebook QR"
+                            style={{ width: '120px' }}
+                          />
+                          <p>Facebook</p>
+                        </div>
+            
+                      </div>
+                    </div>
+              </div>
         </div>
 
-        {/* QR Codes Section */}
-        <div style={{ marginTop: '40px' }}>
-          <h3>Connect With Us</h3>
-
-          <div style={{
-            display: 'flex',
-            gap: '30px',
-            marginTop: '20px',
-            flexWrap: 'wrap',
-            justifyContent: 'center'
-          }}>
-
-            {/* WhatsApp QR */}
-            <div>
-              <img
-                src="/qr-whatsapp.png"
-                alt="WhatsApp QR"
-                style={{ width: '120px' }}
-              />
-              <p>WhatsApp</p>
-            </div>
-
-            {/* Instagram QR */}
-            <div>
-              <img
-                src="/qr-instagram.png"
-                alt="Instagram QR"
-                style={{ width: '120px' }}
-              />
-              <p>Instagram</p>
-            </div>
-
-            {/* Facebook QR */}
-            <div>
-              <img
-                src="/qr-facebook.png"
-                alt="Facebook QR"
-                style={{ width: '120px' }}
-              />
-              <p>Facebook</p>
-            </div>
-
-          </div>
-        </div>
+        
 
       </main>
 
