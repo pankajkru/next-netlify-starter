@@ -40,7 +40,7 @@ export default function Home() {
         {/* Order Section */}
         <div style={{ marginTop: '25px' }}>
           <p style={{ fontSize: '18px', fontWeight: '500' }}>
-            We are currently taking orders through
+            We are currently taking orders through.
           </p>
 
           <p style={{ fontSize: '20px', color: '#ff8c00', fontWeight: 'bold' }}>
