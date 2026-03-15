@@ -16,9 +16,10 @@ export default function Home() {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        textAlign: 'center'
+        textAlign: 'center',
+        padding: '20px'
       }}>
-        
+
         {/* Logo */}
         <img
           src="/logo-nbt.png"
@@ -33,8 +34,83 @@ export default function Home() {
 
         {/* Coming Soon */}
         <p style={{ fontSize: '22px', color: '#555' }}>
-          🚧 Coming Soon 🚧
+          🚧 Website & Mobile App Coming Soon 🚧
         </p>
+
+        {/* Order Section */}
+        <div style={{ marginTop: '25px' }}>
+          <p style={{ fontSize: '18px', fontWeight: '500' }}>
+            We are currently taking orders through
+          </p>
+
+          <p style={{ fontSize: '20px', color: '#ff8c00', fontWeight: 'bold' }}>
+            📞 Call / WhatsApp: 7766844229
+          </p>
+
+          {/* WhatsApp Button */}
+          <a
+            href="https://wa.me/917766844229"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              marginTop: '10px',
+              padding: '12px 22px',
+              backgroundColor: '#25D366',
+              color: '#fff',
+              borderRadius: '6px',
+              textDecoration: 'none',
+              fontWeight: 'bold'
+            }}
+          >
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        {/* QR Codes Section */}
+        <div style={{ marginTop: '40px' }}>
+          <h3>Connect With Us</h3>
+
+          <div style={{
+            display: 'flex',
+            gap: '30px',
+            marginTop: '20px',
+            flexWrap: 'wrap',
+            justifyContent: 'center'
+          }}>
+
+            {/* WhatsApp QR */}
+            <div>
+              <img
+                src="/qr-whatsapp.png"
+                alt="WhatsApp QR"
+                style={{ width: '120px' }}
+              />
+              <p>WhatsApp</p>
+            </div>
+
+            {/* Instagram QR */}
+            <div>
+              <img
+                src="/qr-instagram.png"
+                alt="Instagram QR"
+                style={{ width: '120px' }}
+              />
+              <p>Instagram</p>
+            </div>
+
+            {/* Facebook QR */}
+            <div>
+              <img
+                src="/qr-facebook.png"
+                alt="Facebook QR"
+                style={{ width: '120px' }}
+              />
+              <p>Facebook</p>
+            </div>
+
+          </div>
+        </div>
 
       </main>
 
@@ -42,4 +118,3 @@ export default function Home() {
     </div>
   )
 }
-
